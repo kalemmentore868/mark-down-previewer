@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #87b5b5;
+  height: 100vh;
+  padding-top: 5vh;
+}
+
+.h2-editor {
+  border: 1px solid black;
+  text-align: left;
+  width: 62%;
+  margin-left: 18.3vw;
+  background-color: #4aa3a3;
+}
+
+#editor {
+  background-color: inherit;
+  border: 1px solid black;
+  outline: none;
+}
+
+.h2-preview {
+  border: 1px solid black;
+  width: 80%;
+  margin-left: 10vw;
+  margin-top: 3vh;
+  background-color: #4aa3a3;
+  text-align: left;
+}
+
+#preview p {
+  border: 1px solid black;
+  width: 80%;
+  margin-left: 10vw;
+  word-wrap: break-word;
+}
